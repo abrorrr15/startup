@@ -1,0 +1,25 @@
+/* swiper-custom.css */
+
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  opacity: 0.3;
+  color: lightcyan; 
+  transition: all .3s linear;
+}
+.custom-swiper-button-next:hover,
+.custom-swiper-button-prev:hover {
+  opacity: 1;
+}
+
+.custom-swiper-button-prev {
+  left: 10px;
+}
+
+.custom-swiper-button-next {
+  right: 10px;
+}

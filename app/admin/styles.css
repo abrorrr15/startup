@@ -1,0 +1,59 @@
+.background {
+  background-image: url("/fon.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+/* styles.css */
+
+/* Input field styles */
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  color: #374151;
+  border: 1px solid #c8cacf;
+  border-radius: 0.375rem;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+}
+
+/* Primary button style */
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #10b981;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  outline: none;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #059669;
+}
+
+/* Social login button style */
+.social-login-btn {
+  padding: 0.5rem;
+  background-color: #1e40af;
+  border-radius: 50%;
+  color: #fff;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.social-login-btn:hover {
+  background-color: #1e3a8a;
+}
